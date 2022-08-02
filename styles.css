@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 2vw;
+}
+
+a:link, a:visited {
+    color: #433043;
+    font-weight: bold;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active {
+    background-color: #9b85a8;
+}
+
+.hide {
+    visibility: hidden ;
+}
+
+section {
+    padding: 5vw;
+}
+
+.background {
+    background: url(loverBG.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.tribute-img {
+	display: block;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+h1 {
+    font-size: 6vw;
+    text-align: center; 
+    padding-bottom: 1vw;
+}
+
+h2 {
+    font-size: 4vw;
+    text-align: center;
+    padding-bottom: 1vw;
+}
+
+h3 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.8vw;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+    padding: 2vw;
+}
+
+span {
+    color: #bee1f1;
+}
+
+div.text-background {
+    background-color: #9b85a8;
+    padding: 3;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #5387b2;
+    background-color: #5387b2;
+    width: 20vw;
+    display: inline-block;
+}
+  
+div.gallery:hover {
+    border: 5px solid #5387b2;
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+div.desc {
+    padding: 1vw;
+    text-align: center;
+    font-size: 2vw;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    font-size: 2vw;
+}
