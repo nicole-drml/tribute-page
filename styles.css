@@ -48,7 +48,7 @@ section {
 }
 
 .background {
-    background: url(loverBG.jpg) no-repeat center fixed;
+    background: url(./assets/loverBG.jpg) no-repeat center fixed;
     background-size: cover;
 }
 
